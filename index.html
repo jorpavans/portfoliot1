@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='css/style.css'>
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div class="box-tab">
+</head>
+
+<body>
+    <input class="radio" id="um" name="group" type="radio" checked>
+    <input class="radio" id="dois" name="group" type="radio">
+    <input class="radio" id="tres" name="group" type="radio">
+
+    <div class="tabs">
+
+        <label class="tab" id="one-tab" for="um">Início</label>
+        <label class="tab" id="two-tab" for="dois">Autoavaliação</label>
+        <label class="tab" id="three-tab" for="tres">Feedback</label>
+
+    </div>
+
+
+    <div class="panels">
+
+        <div class="panel" id="tab-um">
+            <div class="ap">
+                <br>
+                <h1 class="sim">ᴘᴏʀᴛғᴏ́ʟɪᴏ</h1>
+                <br>
+                <br>
+                <i>
+                    <p>Jordana Pavan dos Santos</p>
+                    <p>1° EMI Informática - 3° Trimestre</p>
+                    <p>IFRS - Campus Erechim</p>
+                    <p>Professor(a): Ernani Gottardo(Desenvolvimento Web I) e Valéria Espíndola Lessa(Matemática)
+                    </p>
+                </i>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <nav class="font">
+                    <div class="navicon">
+                        <div></div>
+                    </div>
+
+                    <a href='logs.html'>Logaritmos</a>
+                    <a href="flogs.html">Funções Logarítmicas</a>
+                    <a href="matf.html">Matemática Financeira</a>
+                    <br>
+
+
+                </nav>
+
+            </div>
+            <br>
+            <br>
+            <div>
+                <br>
+                <br>
+                <br>
+                <h1 align="center">ɪɴᴛʀᴏᴅᴜᴄ̧ᴀ̃ᴏ</h1>
+                <br>
+
+                <i>
+                    <p class="ali"> Durante o primeiro trimestre na disciplina de matemática foram passados os
+                        conteúdos
+                        de logaritmos,
+                        funções logarítmicas e matemática financeira(Juros Simples e Juros Compostos).
+                    </p>
+                    <p class="ali"> Assim como nas propostas anteriores do Portfólio, serão vistos quatro assuntos,
+                        sendo dois deles os que eu tive mais dificuldade e os outros dois que eu tive mais
+                        facilidade em
+                        aprender. Para cada
+                        tema será apresentado um breve resumo acompanhado de exemplos resolvidos, e ao final de
+                        tudo,
+                        sendo
+                        guiado pelo menu, terá
+                        uma avaliação do meu desempenho.
+                    </p>
+                    <br>
+                    <br>
+                    <p class="ali">A aba "Feedback" possui um formulário que não armazena/envia as respostas(falta de "banco de dados").</p>
+                </i>
+            </div>
+
+        </div>
+        <!--1-->
+
+        <div class="panel" id="tab-dois">
+
+            <br>
+            <h2 class="tab-title" align="center">Autoavaliação</h2>
+            <br>
+            <br>
+            <h5>
+                <p class="bab">
+                    Eu gostei dos conteúdos do último trimestre, achei fácil de entender. Algo que mudou um pouco foi a
+                    minha participação nas aulas, que as vezes eu dou algum palpite ou me voluntario para algo. Meu
+                    desempenho aumentou de uma forma drástica esse trimestre. Esse ano foi muito bom, uma
+                    experiência incrível, e de primeira eu poderia apontar que no componente curricular do Ensino Médio
+                    a
+                    disciplina de Matemática foi em disparada a que mais ativou o meu interesse e o meu prazer em
+                    aprender.
+                </p>
+            </h5>
+        </div>
+        <!--2-->
+
+        <div class="panel" id="tab-tres">
+
+            <form class="formulario" method="post" action="enviaEmail.php">
+                <h1 class="title"><i class="icon icon-mail-1"></i>Feedback</h1>
+
+                <label class="label">
+                    <span>Nome Completo</span>
+                    <input type="text" name="nome" class="campo" placeholder="Digite seu nome" required="" />
+                </label>
+                <br>
+
+                <br>
+
+                <label class="label">
+                    <span></span>
+                </label>
+
+                <label class="label">
+                    <span>Mensagem</span>
+                    <textarea name="mensagem" class="campo" placeholder="Deixe sua mensagem" required=""></textarea>
+                </label>
+
+                <br>
+                <label class="label">
+
+                    <input type="hidden" name="acao" value="enviar">
+                    <button type="submit" class="botao"> Enviar </button>
+
+                </label>
+
+            </form>
+
+
+        </div>
+        <!--3-->
+
+    </div>
+
+    </div>
+
+    <!--Box tab-->
+</body>
+
+</html>

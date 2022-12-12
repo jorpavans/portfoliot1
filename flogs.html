@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='css/style.css'>
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div class="box-tab"></div>
+</head>
+
+<body>
+    <div id="menu" class="body">
+        <ul>
+            <li><a href="logs.html">Logaritmos</a></li>
+            <li><a href="flogs.html">Funções Logarítmicas</a></li>
+            <li><a href="matf.html">Matemática Financeira</a></li>
+            <br>
+            <br>
+            <li><a href="index.html">Voltar ao início</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class="control">
+            <br>
+            <br>
+            <div id="conteudo">
+                <h2>
+                    <p align="center">Funções Logarítmicas</p>
+                </h2>
+                <div>
+                    <h6 class="logg" id="logg">
+                        <p>
+                            - Definição: A função logarítmica é uma função f: R*+ → R, definida como f(x) = logax, em
+                            que 0
+                            a ≠ 1. </p>
+
+                        <p>Como podemos ver pela definição acima, o domínio da função logarítmica está contido no
+                            conjunto R*+, conjunto dos reais positivos sem o 0 (zero).</p>
+
+                        <p>O domínio da função logarítmica são os valores que podemos aplicar a variável x.</p>
+                        <p>Lembrando que o logarítmico e a base tem que ser positivos, e a base tem que ser
+                            diferente de
+                            1.</p>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <div align="center" class="te">
+            <h6>
+                <p>Exemplo:</p>
+            </h6>
+            <p><b>Seja f(x) = log22x + 1, determine o domínio da função.</b></p>
+            <p>A resolução dessa questão é bem simples, temos apenas que tomar cuidado com a condição de existência
+                do logaritmo, como podemos ver 0 < a ≠ 1. Então, 2x + 1> 0 ⇒ 2x > -1 ⇒ x > –1⁄2</p>
+
+            <p>Assim, o domínio dessa função é definido assim:</p>
+            <br>
+            <p>D = {x ∈ R | x > –1⁄2 }</p>
+            <br>
+            <br>
+            <h3>
+                <p align="center"><b>Gráficos</b></p>
+            </h3>
+            <br>
+            <p>Para entendermos o gráfico, vamos aplicar alguns valores em uma função e esboçar o gráfico para ver o
+                resultado e seu comportamento no plano cartesiano. </p>
+            <p>Podemos classificar funções logarítmicas em
+                crescente e decrescente conforme o seu gráfico.</p>
+            <br>
+            <br>
+            <h4>
+                <p>Crescente</p>
+            </h4>
+            <br>
+            <p>Uma função logarítmica com base a > 1 é estritamente crescente e contínua em R*+. Dessa forma, se
+                aplicarmos valores na função f(x) = log2x temos a seguinte tabela:</p>
+            <br>
+            <div class="tabc">
+                <img src="imgs/tabcresc.jpeg">
+            </div>
+            <div class="grafc">
+                <br>
+                <img src="imgs/grafcresc.jpeg">
+            </div>
+            <br>
+            <br>
+            <p>Veja que temos um gráfico crescente e cresce mais lentamente ao longo do tempo, quando os valores de x
+                aumentam.</p>
+            <br>
+            <br>
+            <br>
+            <h4>
+                <br>
+                <p>Descrescente</p>
+            </h4>
+            <p>Uma função logarítmica com base 0 < a < 1 é estritamente decrescente e contínua em R*+. Assim, aplicando
+                    valores na função f(x)=log1⁄2x, temos a seguinte tabela:</p>
+                    <br>
+                    <div class="tabc">
+                        <img src="imgs/tabcresc2.jpeg">
+                    </div>
+                    <div class="grafc">
+                        <br>
+                        <img src="imgs/grafcresc2.jpeg">
+                    </div>
+                    <br>
+                    <br>
+                    <p>O gráfico é decrescente e quando os valores para x aumentam o gráfico decresce mais lentamente.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Resumindo, podemos afirmar que a função logarítmica é:</p>
+
+                    <p>- Injetora e Sobrejetora;</p>
+                    <p>- Estritamente crescente, para a > 1;</p>
+                    <p>- Estritamente decrescente, para 0 < a < 1</p>
+        </div>
+        <div class="nam">
+            <h3 align="center">
+                <br>
+                <br>
+                Interseções nos eixos X e Y
+            </h3>
+            <br>
+            <br>
+            <p>X : Sempre que o gráfico de uma função intersectar o eixo x, teremos raízes
+                reais. Para encontrar essas raízes, devemos resolver a equação 𝑓(𝑥) = 0.
+            </p>
+            <br>
+            <p>Y : Já foi possível perceber que nem toda função logarítmica intersecta o eixo
+                das ordenadas. Isso acontece devido às restrições do domínio. Se o domínio for
+                apenas de valores maiores a zero, significa que não cruzará o eixo y.</p>
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
